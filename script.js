@@ -1,4 +1,5 @@
 let count = 5;
+var fix = "I have fixed this bug";
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
